@@ -10,16 +10,21 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onView:harExplorer",
+		"onLanguage:har",
+		"onLanguage:json",
+		"onLanguage:jsonc"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "extension.helloWorld",
-				"title": "Hello World"
-			}
-		]
+		"views": {
+			"explorer": [
+				{
+					"id": "harExplorer",
+					"name": "har timeline"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
@@ -38,5 +43,8 @@
 		"typescript": "^3.6.4",
 		"tslint": "^5.20.0",
 		"vscode-test": "^1.2.2"
+	},
+	"dependencies": {
+		"jsonc-parser": "^2.2.0"
 	}
 }
