@@ -38,7 +38,7 @@
 		"@types/mocha": "^10.0.1",
 		"@types/vscode": "^1.77.0",
 		"@types/node": "^18.15.11",
-		"glob": "^10.1.0",
+		"glob": "^10.2.1",
 		"mocha": "^10.2.0",
 		"typescript": "^5.0.4",
 		"tslint": "^6.1.3",
