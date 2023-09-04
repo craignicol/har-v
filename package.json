@@ -37,7 +37,7 @@
 		"@types/glob": "^8.0.1",
 		"@types/mocha": "^10.0.1",
 		"@types/vscode": "^1.81.0",
-		"@types/node": "^20.5.8",
+		"@types/node": "^20.5.9",
 		"glob": "^10.3.4",
 		"mocha": "^10.2.0",
 		"typescript": "^5.2.2",
